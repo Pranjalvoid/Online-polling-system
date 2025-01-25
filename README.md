@@ -1,77 +1,109 @@
-Online Polling System
+# Online Polling System
 
 An interactive command-line Python application that enables users to register, log in, cast votes for predefined parties, and view the voting results. This project demonstrates user authentication, voting mechanics, and a simple results tally.
->>
-Features
 
-User Registration: Users can create accounts with secure passwords.
+---
 
-Login System: Secure user authentication to ensure voting integrity.
+## Features
 
-Voting: Users can vote for predefined parties, ensuring each user votes only once.
+- **User Registration**: Users can create accounts with secure passwords.
+- **Login System**: Secure user authentication to ensure voting integrity.
+- **Voting**: Users can vote for predefined parties, ensuring each user votes only once.
+- **Results Display**: Real-time results showing the number of votes for each party.
 
-Results Display: Real-time results showing the number of votes for each party.
->>
-Technologies Used
+---
 
-Python: Core programming language.
+## Technologies Used
 
-getpass: For secure password input.
+- **Python**: Core programming language.
+- ``: For secure password input.
 
-Setup and Installation
->>
-**Clone the repository:**
+---
 
-**git clone** https://github.com/yourusername/online-polling-system.git
-cd online-polling-system
+## Setup and Installation
 
-Run the project:Execute the main script using Python:
+1. **Clone the repository**:
 
-python main.py
+   ```bash
+   git clone https://github.com/yourusername/online-polling-system.git
+   cd online-polling-system
+   ```
 
-Usage
+2. **Run the project**:\
+   Execute the main script using Python:
 
-Menu Options
+   ```bash
+   python main.py
+   ```
 
-Register:Allows a new user to register with a unique username and password.
+---
 
-Login:Existing users can log in with their credentials.
+## Usage
 
-Vote:Authenticated users can cast their votes for the following parties:
+### Menu Options
 
-Capsule Corporation
+1. **Register**:\
+   Allows a new user to register with a unique username and password.
 
-Daishinkan
+2. **Login**:\
+   Existing users can log in with their credentials.
 
-Soul Society Reformation Front
+3. **Vote**:\
+   Authenticated users can cast their votes for the following parties:
 
-View Results:Displays the total votes received by each party.
+   - Capsule Corporation
+   - Daishinkan
+   - Soul Society Reformation Front
 
-Exit:Terminates the program.
->>
-Example Usage:
+4. **View Results**:\
+   Displays the total votes received by each party.
 
+5. **Exit**:\
+   Terminates the program.
+
+### Example Usage:
+
+```plaintext
 1. Register
 2. Login
 3. Vote
 4. View Results
 5. Exit
 Enter your choice: 1
+```
 
-**Files Structure**
+---
 
-main.py:The main entry point for the application. Handles the program flow and user interaction.
+## Files Structure
 
-users.py:Manages user registration and authentication using a simple in-memory database.
+- ``:\
+  The main entry point for the application. Handles the program flow and user interaction.
 
-votes.py:Implements the voting mechanism and results display functionality.
+- ``:\
+  Manages user registration and authentication using a simple in-memory database.
 
-Future Improvements
+- ``:\
+  Implements the voting mechanism and results display functionality.
 
-Add data persistence using a database or file system.
+---
 
-Introduce encryption for passwords to enhance security.
+## Future Improvements
 
-Add a graphical user interface (GUI) for better user experience.
+- Add data persistence using a database or file system.
+- Introduce encryption for passwords to enhance security.
+- Add a graphical user interface (GUI) for better user experience.
+- Implement error handling for edge cases (e.g., invalid input, network issues).
 
-Implement error handling for edge cases (e.g., invalid input, network issues).
+---
+
+## Contribution
+
+Contributions are welcome!\
+Fork the repository, make your changes, and submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
